@@ -2,6 +2,14 @@
 
 This repository contains the addresses and abis related to the glow labs guarded launch.
 
+## Install
+
+`npm install @glowlabs-org/guarded-launch-abis`
+
+## Requirements
+
+- Node version >= 16
+
 ## Example Usage
 
 ```typescript
