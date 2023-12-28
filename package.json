@@ -32,10 +32,7 @@
     "require": "./lib/cjs/index.js"
   },
   "engines": {
-    "node": ">=18"
-  },
-  "peerDependencies": {
-    "ethers": "5.x.x"
+    "node": ">=16"
   },
   "devDependencies": {
     "@types/node": "^20.10.5",
