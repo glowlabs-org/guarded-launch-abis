@@ -1,7 +1,7 @@
 {
-  "name": "@glowlabs-org/guarded-launch-ethers-sdk",
+  "name": "@glowlabs-org/guarded-launch-abis",
   "version": "0.0.1",
-  "description": "A library containing all typechain types and addresses relating to the glow guarded launch",
+  "description": "A library containing all abis and addresses relating to the glow guarded launch",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run build:cjs && npm run build:esm",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/glowlabs-org/guarded-launch-ethers-sdk.git"
+    "url": "https://github.com/glowlabs-org/guarded-launch-abis.git"
   },
   "sideEffects": false,
   "exports": {
