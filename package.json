@@ -1,6 +1,6 @@
 {
   "name": "@glowlabs-org/guarded-launch-abis",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A library containing all abis and addresses relating to the glow guarded launch",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -1,4 +1,16 @@
-export const addresses: Record<string, `0x${string}`> = {
+type AddressKey =
+  | "earlyLiquidity"
+  | "governance"
+  | "glow"
+  | "vetoCouncilContract"
+  | "safetyDelay"
+  | "grantsTreasury"
+  | "gcaAndMinerPoolContract"
+  | "gcc"
+  | "usdg"
+  | "impactCatalyst"
+  | "carbonCreditAuction";
+export const addresses: Record<AddressKey, `0x${string}`> = {
   earlyLiquidity: "0xD5aBe236d2F2F5D10231c054e078788Ea3447DFc",
   governance: "0x8d01a258bC1ADB728322499E5D84173EA971d665",
   glow: "0xf4fbC617A5733EAAF9af08E1Ab816B103388d8B6",
